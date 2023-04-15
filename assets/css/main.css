@@ -1,5 +1,6 @@
 body {
     background-color: #808080;
+    font-family: "Helvetica", sans-serif;
 }
 
 /* Reset default margin and padding */
@@ -14,27 +15,87 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     padding: 10px;
     display: flex;
     align-items: center;
-  }
+}
   
-  .logo {
+.logo {
     width: 40px;
     height: 40px;
     margin-right: 10px;
-  }
+}
   
-  .btn {
+.btn {
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
-  }
+}
   
-  /* Home content styles */
+/* Home content styles */
   .container {
     margin: 20px;
-  }
+}
   
-  /* Image styles */
-  .banner img {
+/* Image styles */
+.banner img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.background-image {
+    background-image: url(../images/mainpage_background.jpg); /* Replace with the URL of your image */
+    background-size: cover;
+    background-position: center center;
+    height: 90vh; /* Set the height to cover the entire viewport */
+}
+
+.text-overlay {
+    position: absolute; /* Position the text overlay relative to the .background-image element */
+    top: 0;
+    right: 15%; /* Position the text overlay 3/4 to the right */
+    bottom: 0;
+    display: flex; /* Use flexbox to center the text vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    color: #808080; /* Set the color of the text */
+    font-size: 48px; /* Set the font size of the text */
+    text-align: center; /* Set the text alignment */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Set the width of the dropdown content to fit the content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f9f9f9;
+    padding-top: 8px; /* Add padding as desired */
+    padding-bottom: 8px; /* Add padding as desired */
+    width: 100%; /* Set the width to fit the content */
+    z-index: 1;
+    margin-bottom: 20px;
   }
+  
+  /* Show the dropdown content when hovering over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
