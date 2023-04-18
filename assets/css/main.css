@@ -11,10 +11,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   
 /* Banner styles */
 .banner {
+    position: fixed; /* Set the position of the banner to fixed */
     background-color: #333;
     padding: 10px;
     display: flex;
     align-items: center;
+    width: 100%; /* Set the width to 100% */
 }
   
 .logo {
@@ -103,4 +105,37 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .dropdown-content a:hover {
     background-color: #ddd;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-document-links {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+}
+
+.social-media-links img {
+    width: 30px; /* Adjust the size of the social media logos as needed */
+    height: 30px;
+}
+
+.social-media-links img:hover {
+    opacity: 0.8; /* Add hover effect if desired */
 }
