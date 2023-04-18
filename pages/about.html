@@ -2,16 +2,17 @@
 <html>
 <head>
   <title>About Us</title>
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/about.css" rel="stylesheet">
 </head>
 <body>
 
   <!-- Banner with home, about, and projects dropdown buttons -->
   <div class="banner">
-    <a href="../index.html">
-      <img src="../assets/images/logo.png" class="logo" alt="Logo">
+    <a href="/index.html">
+      <img src="/assets/images/logo.png" class="logo" alt="Logo">
     </a>
-    <a href="./about.html" class="btn">About</a>
+    <a href="/pages/about.html" class="btn">About</a>
     <div class="dropdown">
       <a href="#" class="btn">Projects</a>
       <div class="dropdown-content">
@@ -21,37 +22,6 @@
     </div>
   </div>
 
-  <style>
-    body {
-      height: 100vh;
-      margin: 0;
-    }
-
-    .background-image {
-      background-image: url(/assets/images/mainpage_background.jpg);
-      background-size: cover;
-      background-position: center center;
-      height: 80vh;
-    }
-
-    .text-overlay {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-    }
-
-    .text-overlay h1 {
-      font-size: 48px;
-      color: #fff;
-    }
-
-    .additional-section {
-      padding: 20px;
-      background-color: #f8f8f8;
-    }
-  </style>
-
   <div class="background-image">
     <div class="text-overlay">
       <h1>AetherAI</h1>
@@ -60,9 +30,23 @@
   
   <!-- About content -->
   <div class="container">
-    <h1>About Us 2.0</h1>
+    <h1>About Us 2.0</h1><br>
     <p>Welcome to our website! We are a company that specializes in creating innovative products for the modern world. Our team of experts is passionate about delivering cutting-edge solutions that meet the needs of our customers. With years of experience and a commitment to excellence, we strive to be a leader in our industry.</p>
     <p>Contact us to learn more about our products and services, or to discuss potential partnerships. We look forward to hearing from you!</p>
   </div>
+
+  <div class="container">
+    <h1>Meet the Team!</h1><br>
+    <div class="profile">
+      <img src="/assets/images/logo.png" alt="Darian's profile picture" class="profile-picture">
+      <div class="profile-info">
+        <h2>Darian</h2>
+        <h3>Lead Developer</h3>
+        <p>"I really have no idea what the hell I'm doing. I just don't feel like doing coursework rn."</p>
+      </div>
+    </div>
+  </div>
+  
+
 </body>
 </html>

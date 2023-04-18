@@ -40,18 +40,30 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     max-height: 100%;
 }
 
-.text-overlay {
-    position: absolute; /* Position the text overlay relative to the .background-image element */
-    top: 0;
-    right: 15%; /* Position the text overlay 3/4 to the right */
-    bottom: 0;
-    display: flex; /* Use flexbox to center the text vertically and horizontally */
+.background-image {
+    background-image: url(/assets/images/mainpage_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+  }
+
+  .text-overlay {
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: #808080; /* Set the color of the text */
-    font-size: 300%; /* Set the font size of the text */
-    text-align: center; /* Set the text alignment */
-}
+    height: 100%;
+    padding-left: 50%; /* Set the padding to 25% to create space on the right side of the container */
+  }
+
+  .text-overlay h1 {
+    font-size: 48px;
+    color: #fff;
+  }
+
+  .additional-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
 
 .dropdown {
     position: relative;

@@ -1,0 +1,16 @@
+.profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 100px; /* adjust size as needed */
+    height: 100px; /* adjust size as needed */
+    border-radius: 50%; /* for rounded profile picture */
+    margin-right: 10px; /* add margin between profile picture and text */
+    border: 2px solid #000; /* add border, adjust color and width as needed */
+  }
+  
+  .profile-info {
+    flex-grow: 1; /* to allow text to fill remaining space */
+  }
