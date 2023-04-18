@@ -24,26 +24,49 @@
 
   <style>
     body {
-      background-image: url(assets/images/mainpage_background.jpg);
+      height: 100vh;
+      margin: 0;
+    }
+
+    .background-image {
+      background-image: url(/assets/images/mainpage_background.jpg);
       background-size: cover;
       background-position: center center;
-      height: 90vh;
+      height: 80vh;
+    }
+
+    .text-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .text-overlay h1 {
+      font-size: 48px;
+      color: #fff;
+    }
+
+    .additional-section {
+      padding: 20px;
+      background-color: #f8f8f8;
     }
   </style>
-  
+
   <div class="background-image">
     <div class="text-overlay">
       <h1>AetherAI</h1>
     </div>
   </div>
-  
+
   <main>
     <div class="container">
       <h1>Home</h1>
-      <p>Pretend that this is a bunch of really really intresting stuff.</p>
+      <p>Pretend that this is a bunch of really really interesting stuff.</p>
       <p>This is another paragraph of really interesting stuff.</p>
       <p>This is where you say good job.</p>
     </div>
   </main>
+
 </body>
 </html>
