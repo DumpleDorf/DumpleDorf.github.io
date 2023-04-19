@@ -51,7 +51,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     cursor: pointer;
     outline: none;
     margin-left: auto; /* Align the register button to the right */
-    margin-right: 0; /* Remove any right margin */
+    margin-right: 25px; /* Remove any right margin */
     text-decoration: none; /* Remove underline */
 }
 
