@@ -1,0 +1,12 @@
+.home-square-image-text-container {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Allow text container to take up remaining space */
+    max-width: 70%;
+  }
+  
+  .home-square-image {
+    width: 200px; /* Set width and height as needed */
+    height: 200px;
+    margin-right: 20px; /* Add margin to create spacing between image and text */
+  }
